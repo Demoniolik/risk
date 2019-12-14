@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Risk</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="">
+  <link rel="shortcut icon" href="img/shortcut.jpg" type="image/png">
+
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" type="text/css" href="css/assets.css">
+  <link rel="Stylesheet" type="text/css" href="css/wSelect.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  
+</head>
+
+<body>
+
+  <div class="container-logo">
+    <div class="logo animated fadeInDown delay-1s">Risk</div>
+  </div>
+
+  <div class="content">
+
+    <div class="info">
+      <div class="place">Стол: <span>1</span></div>
+      <div class="number">Место: <span>1</span></div>
+    </div>
+
+      <section id="menu">
+        <div class="container">
+          <div class="row">
+
+            <div class="steps">
+              <div class="step active">1</div>
+              <div class="step">2</div>
+              <div class="step">3</div>
+            </div>
+
+            <div class="exchange_title">Меню</div>
+
+            
+
+            <form class="main">
+
+              <div class="df">
+                <div class="dropdown">
+                  <div class="item-head">
+                    <div class="item-head_icon"><img src="img/menu/salad.svg" alt="salad"></div>
+                    <div class="item-head_title">Салаты</div>
+                    <div class="item-head_arrow"><img src="img/arrow-right.svg" alt="arrow-right"></div>
+                  </div>
+                  <div class="item-content">
+
+                    <div class="item">
+                      <a href="#001" class="left popup-item">
+                        <div class="container-img"><img src="img/menu/cocktails.svg" alt=""></div><div class="title">Pepsi</div>
+                      </a>
+                      <div class="right">
+                        <input class="checkbox" id="input-001" type="checkbox" value="pepsi" name="brand[]">
+                        <label for="input-001" class="price">24 <span>грн</span></label>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <a href="#002" class="left popup-item">
+                        <div class="container-img"><img src="img/menu/cocktails.svg" alt=""></div><div class="title">Fanta</div>
+                      </a>
+                      <div class="right">
+                        <input class="checkbox" id="input-002" type="checkbox" value="fanta" name="brand[]">
+                        <label for="input-002" class="price">22 <span>грн</span></label>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <a href="#003" class="left popup-item">
+                        <div class="container-img"><img src="img/menu/cocktails.svg" alt=""></div><div class="title">Pepsi</div>
+                      </a>
+                      <div class="right">
+                        <input id="input-003" type="checkbox" name="003">
+                        <label for="input-003" class="price">24 <span>грн</span></label>
+                      </div>
+                    </div>
+                      
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <div class="item-head">
+                    <div class="item-head_icon"><img src="img/menu/cocktails.svg" alt="cocktails"></div>
+                    <div class="item-head_title">Напитки</div>
+                    <div class="item-head_arrow"><img src="img/arrow-right.svg" alt="arrow-right"></div>
+                  </div>
+                  <div class="item-content">
+
+                    <div class="item">
+                      <a href="#004" class="left popup-item">
+                        <div class="container-img"><img src="img/menu/cocktails.svg" alt=""></div><div class="title">Pepsi</div>
+                      </a>
+                      <div class="right">
+                        <input id="input-004" type="checkbox">
+                        <label for="input-004" class="price">24 <span>грн</span></label>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <a href="#005" class="left popup-item">
+                        <div class="container-img"><img src="img/menu/cocktails.svg" alt=""></div><div class="title">Pepsi</div>
+                      </a>
+                      <div class="right">
+                        <input id="input-005" type="checkbox">
+                        <label for="input-005" class="price">24 <span>грн</span></label>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <a href="#006" class="left popup-item">
+                        <div class="container-img"><img src="img/menu/cocktails.svg" alt=""></div><div class="title">Pepsi</div>
+                      </a>
+                      <div class="right">
+                        <input id="input-006" type="checkbox">
+                        <label for="input-006" class="price">24 <span>грн</span></label>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <button onclick="getCheckedCheckBoxes()" type="submit">Оплатить - <span>120 грн</span></button>
+            </form>
+
+          </div>
+        </div>
+      </section>
+  </div>
+
+  <!-- Pepsi -->
+  <form id="001" class="mfp-hide white-popup-block popup-block">
+    <h1>gay 001</h1>
+  </form>
+
+  <form id="002" class="mfp-hide white-popup-block popup-block">
+    <h1>gay 002</h1>
+  </form>
+
+  <form id="003" class="mfp-hide white-popup-block popup-block">
+    <h1>gay 003</h1>
+  </form>
+
+  <form id="004" class="mfp-hide white-popup-block popup-block">
+    <h1>gay 004</h1>
+  </form>
+
+  <form id="005" class="mfp-hide white-popup-block popup-block">
+    <h1>gay 005</h1>
+  </form>
+
+  <form id="006" class="mfp-hide white-popup-block popup-block">
+    <h1>gay 006</h1>
+  </form>
+
+  
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script type="text/javascript" src="js/wSelect.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  
+
+</body>
+</html>
